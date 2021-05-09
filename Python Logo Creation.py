@@ -1,0 +1,77 @@
+from turtle import *
+
+def gogo():
+    title('DARN')
+    pensize(2)
+    color('white','#306998')
+    bgcolor('black')
+    begin_fill()
+    hideturtle()
+    backward(40)
+    left(90)
+    forward(60)
+    right(90)
+    forward(60)
+    left(180)
+    forward(20)
+    right(90)
+    forward(30)
+    right(90)
+    forward(50)
+    right(90)
+    forward(60)
+    right(90)
+    forward(50)
+    left(90)
+    forward(30)
+    end_fill()
+    color('white','yellow')
+
+    
+gogo()
+
+
+
+
+def yoyo():
+    bgcolor('black')
+    pensize(2)
+    color('white','#FADA5E')
+    
+    begin_fill()
+    right(180)
+    forward(30)
+    right(90)
+    forward(50)
+    left(90)
+    forward(30)
+    right(90)
+    forward(40)
+    right(90)
+    forward(60)
+    right(90)
+    forward(60)
+    right(180)
+    forward(20)
+    right(90)
+    forward(30)
+    right(90)
+    forward(30)
+    forward(20)
+    right(90)
+    forward(30)
+    end_fill()
+
+    penup()
+    forward(80)
+    right(90)
+    forward(10)
+    dot(5,'white')
+    right(90)
+    forward(100)
+    left(90)
+    forward(20)
+    dot(5,'white')
+    
+    
+yoyo()
